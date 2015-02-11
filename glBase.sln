@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glBase", "glBase.vcxproj", "{E000CE5C-4E1D-491C-92AC-82864DD80778}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example1", "Examples\Example1\Example1.vcxproj", "{94081794-B60E-4ABB-87C2-EAF0924ECE37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E000CE5C-4E1D-491C-92AC-82864DD80778} = {E000CE5C-4E1D-491C-92AC-82864DD80778}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E000CE5C-4E1D-491C-92AC-82864DD80778}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E000CE5C-4E1D-491C-92AC-82864DD80778}.Debug|Win32.Build.0 = Debug|Win32
+		{E000CE5C-4E1D-491C-92AC-82864DD80778}.Release|Win32.ActiveCfg = Release|Win32
+		{E000CE5C-4E1D-491C-92AC-82864DD80778}.Release|Win32.Build.0 = Release|Win32
+		{94081794-B60E-4ABB-87C2-EAF0924ECE37}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94081794-B60E-4ABB-87C2-EAF0924ECE37}.Debug|Win32.Build.0 = Debug|Win32
+		{94081794-B60E-4ABB-87C2-EAF0924ECE37}.Release|Win32.ActiveCfg = Release|Win32
+		{94081794-B60E-4ABB-87C2-EAF0924ECE37}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
